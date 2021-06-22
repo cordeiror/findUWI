@@ -52,8 +52,8 @@ public class ZipFinder implements Finder {
             find(directory, uwIssue).forEach((result) ->  listResult.add(uwIssue+"\t\t"+" - file: "+Paths.get(result).getFileName().toString()+"\n"));
         });
 
-        listResult.forEach((result) -> System.out.println(result));
-        return listResult;    }
+        return listResult;
+    }
 
 
     private static List<String> getContentFromZip(String zipFilePath, String textToFind) throws IOException {

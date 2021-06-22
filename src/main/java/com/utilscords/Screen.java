@@ -35,7 +35,7 @@ public class Screen {
 
         screenY += fieldDistanceY;
         JTextField directoryField = new JTextField();
-        directoryField.setText("C:\\Guidewire\\PolicyCenter1003\\modules\\configuration\\config\\import\\bizrules\\");
+        directoryField.setText("C:\\");
         directoryField.setBounds(70, screenY, 400, 30);
         JLabel directoryFieldLabel = new JLabel("Directory");
         directoryFieldLabel.setBounds(10, screenY, 60, 30);
